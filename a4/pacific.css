@@ -1,0 +1,68 @@
+.wrapper {
+	width: 80%;
+	min-width: 700px;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+}
+
+body {
+	background-image: url("background.jpg");
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+	background-color: #000033;
+	color: #ffffff;
+	font-family: Georgia, serif;
+}
+
+h1 {
+	line-height: 200%;
+	background-image: url("sunset.jpg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 72px;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+nav {
+	font-weight: bold;
+	background-color: #90c7e3;
+	padding: 5px 5px 5px 5px;
+}
+
+main {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h2 {
+	color: #3399cc;
+	font-weight: bold;
+}
+
+h3 {
+	color: #000033;
+}
+
+
+dt {
+	color: #000033;
+	font-weight: bold;
+}
+
+.resort {
+	color: #000033;
+	font-size: 1.2em;
+}
+
+footer {
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
