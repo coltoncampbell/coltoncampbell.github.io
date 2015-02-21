@@ -1,0 +1,115 @@
+header, nav, main, footer { display: block; }
+
+.wrapper {
+	width: 80%;
+	min-width: 700px;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #90C7E3;
+}
+
+body {
+	background-image: url("background.jpg");
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+	background-color: #000033;
+	color: #ffffff;
+	font-family: Georgia, serif;
+}
+
+h1 {
+	line-height: 200%;
+	background-image: url("sunset.jpg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 72px;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+nav {
+	font-weight: bold;
+	padding: 20px 5px 0px 20px;
+	float: left;
+	width: 160px;
+}
+
+nav ul {
+	list-style-type: none; 
+	margin:0; 
+	padding-left:0; 
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: #000033;
+
+}
+
+nav a:visited{
+	color: #344873;
+
+}
+
+nav a:hover{
+	color: #FFFFFF;
+
+}
+
+main {
+	padding: 1px 0px 1px 0px;
+	margin-left: 170px;
+	background-color: #ffffff;
+}
+
+main img { 
+	float: left;
+	padding-right: 20px;
+	padding- bottom: 20px; 
+}
+
+main ul {
+	list-style-position: inside; 
+}
+
+h2 {
+	color: #3399cc;
+	font-weight: bold;
+}
+
+h3 {
+	color: #000033;
+}
+
+
+dt {
+	color: #000033;
+	font-weight: bold;
+}
+
+.resort {
+	color: #000033;
+	font-size: 1.2em;
+}
+
+.clear {
+	clear: both;
+	padding-left: 15px;
+	
+}
+
+footer {
+	background-color: #ffffff;
+	margin-left: 170px;
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
